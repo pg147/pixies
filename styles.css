@@ -1,9 +1,13 @@
 body {
-    background-color: rgb(28, 28, 28);
+    background-color: #26193B;
 }
 ::placeholder,.recent-tag,.recent-vid-tag  {
     font-family: 'Poppins',sans-serif;
     color: white;
+}
+.navbar-style {
+    background-color: #120428; 
+    /* #26193B */ 
 }
 .card {
     width: 175px;
@@ -20,9 +24,15 @@ input[type=search] {
     position: relative;
     left: 165px;
 }
+.audio-pd h3 {
+    color: rgb(211, 211, 211);
+}
 .vid-cast {
     position: relative;
     left: 165px;
+}
+.vid-cast h3 {
+    color: rgb(211, 211, 211);
 }
 .horizontal-scrollable > .row {
     overflow-x: auto;
@@ -49,6 +59,7 @@ input[type=search] {
     width: 20%;
     height: 100vh;
     font-family: 'Poppins',sans-serif;
+    color: rgb(211, 211, 211);
 }
 .profile-bar a {
     text-decoration: none;
@@ -56,7 +67,8 @@ input[type=search] {
 }
 .profile {
     height: 100vh;
-    background-color: rgb(181, 181, 181);
+    background-color: #201531;
+    /* #0C031C */
 }
 #user-profile, #userName, #currentSong, #wishList, #userLibrary, #userLogOut {
     font-size: 15pt;
@@ -74,28 +86,28 @@ input[type=search] {
     height: 40px;
 } 
 #currentSong:hover {
-    background-color: rgb(156, 156, 156);
+    background-color: #201531;
     border-radius: 10px;
 }
 #wishList {
     height: 40px;
 } 
 #wishList:hover {
-    background-color: rgb(156, 156, 156);
+    background-color: #201531;
     border-radius: 10px;
 }
 #userLibrary {
     height: 40px;
 }
 #userLibrary:hover {
-    background-color: rgb(156, 156, 156);
+    background-color: #201531;
     border-radius: 10px;
 } 
 #userLogOut {
     height: 40px;
 } 
 #userLogOut:hover {
-    background-color: rgb(156, 156, 156);
+    background-color: #201531;
     border-radius: 10px;
 }
 /* Profile Side Bar Styling Ends */
@@ -108,7 +120,7 @@ input[type=search] {
 }
 .modal-btn-style {
     background: none;
-    color: black;
+    color: rgb(211, 211, 211);
     border: none;
     font-size: 16pt;
 }
@@ -135,7 +147,8 @@ input[type=search] {
     width: 80%;
     left: 400px;
     right: 0%;
-    background-color: black;
+    background-color: #0C031C;
+    /* #201531 */
     color: white;
     display: flex;
     justify-content: center;
