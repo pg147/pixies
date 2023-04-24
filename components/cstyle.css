@@ -1,0 +1,40 @@
+/* Profile Side Bar Styling */
+
+.profile-bar {
+    width: 20%;
+    height: 100vh;
+}
+ 
+.profile {
+    height: 100vh;
+    background-color: rgb(181, 181, 181);
+}
+
+#user-profile {
+    height: 150px;
+    width: 150px;
+}
+
+#userName {
+    font-size: 17pt;
+}
+
+#currentSong {
+    position: relative;
+    top: 25px;
+    height: 40px;
+} 
+
+#wishList {
+    height: 40px;
+} 
+
+#userLibrary {
+    height: 40px;
+} 
+
+#userLogOut {
+    height: 40px;
+} 
+
+/* Profile Side Bar Styling Ends */

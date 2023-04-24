@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(28, 28, 28);
+}
+::placeholder,.recent-tag,.recent-vid-tag  {
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+.card {
+    width: 175px;
+    height: 160px;
+}
+.vid-card {
+    width: 20%;
+    height: 160px;
+}
+input[type=search] {
+    font-family: 'Poppins',sans-serif;
+}
+.audio-pd {
+    position: relative;
+    left: 165px;
+}
+.vid-cast {
+    position: relative;
+    left: 165px;
+}
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}  
+.horizontal-scrollable > .row > .vid-card {
+    display: inline-block;
+    float: none;
+}
+.horizontal-scrollable > .row > .card {
+    display: inline-block;
+    float: none;
+}
+.row::-webkit-scrollbar {
+    display: none;
+}
+.row {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Profile Side Bar Styling */
+.profile-bar {
+    width: 20%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+}
+.profile-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+.profile {
+    height: 100vh;
+    background-color: rgb(181, 181, 181);
+}
+#user-profile, #userName, #currentSong, #wishList, #userLibrary, #userLogOut {
+    font-size: 15pt;
+}
+#user-profile {
+    height: 150px;
+    width: 150px;
+}
+#userName {
+    font-size: 16pt;
+}
+#currentSong {
+    position: relative;
+    top: 25px;
+    height: 40px;
+} 
+#currentSong:hover {
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+}
+#wishList {
+    height: 40px;
+} 
+#wishList:hover {
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+}
+#userLibrary {
+    height: 40px;
+}
+#userLibrary:hover {
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+} 
+#userLogOut {
+    height: 40px;
+} 
+#userLogOut:hover {
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+}
+/* Profile Side Bar Styling Ends */
+  
+.modal, .font-btn-modal {
+    font-family: 'Poppins',sans-serif;
+}
+.modal {
+    z-index: 1;
+}
+.modal-btn-style {
+    background: none;
+    color: black;
+    border: none;
+    font-size: 16pt;
+}
+.modal-btn-style:hover {
+    background: none;
+    color : black;
+}
+.modal-dialog {
+    z-index: 1;
+}
+#addPod {
+    height: 40px;
+} 

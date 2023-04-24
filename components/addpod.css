@@ -1,0 +1,16 @@
+.modal, .font-btn-modal {
+    font-family: 'Poppins',sans-serif;
+}
+.modal-btn-style {
+    background: none;
+    color: black;
+    border: none;
+    font-size: 16pt;
+}
+.modal-btn-style:hover {
+    background: none;
+    color : black;
+}
+#addPod {
+    height: 40px;
+} 
