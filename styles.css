@@ -1,0 +1,225 @@
+body {
+    background-color: #26193B;
+}
+::placeholder,.recent-tag,.recent-vid-tag  {
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+.navbar-style {
+    background-color: #120428; 
+    /* #26193B */ 
+}
+.card {
+    width: 175px;
+    height: 160px;
+}
+.vid-card {
+    width: 20%;
+    height: 160px;
+}
+input[type=search] {
+    font-family: 'Poppins',sans-serif;
+}
+.audio-pd {
+    position: relative;
+    left: 165px;
+}
+.audio-pd h3 {
+    color: rgb(211, 211, 211);
+}
+.vid-cast {
+    position: relative;
+    left: 165px;
+}
+.vid-cast h3 {
+    color: rgb(211, 211, 211);
+}
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}  
+.horizontal-scrollable > .row > .vid-card {
+    display: inline-block;
+    float: none;
+}
+.horizontal-scrollable > .row > .card {
+    display: inline-block;
+    float: none;
+}
+.row::-webkit-scrollbar {
+    display: none;
+}
+.row {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Profile Side Bar Styling */
+.profile-bar {
+    width: 20%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(211, 211, 211);
+}
+.profile-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+.profile {
+    height: 100vh;
+    background-color: #201531;
+    /* #0C031C */
+}
+#user-profile, #userName, #currentSong, #wishList, #userLibrary, #userLogOut {
+    font-size: 15pt;
+}
+#user-profile {
+    height: 150px;
+    width: 150px;
+}
+#userName {
+    font-size: 16pt;
+}
+#currentSong {
+    position: relative;
+    top: 25px;
+    height: 40px;
+} 
+#currentSong:hover {
+    background-color: #201531;
+    border-radius: 10px;
+}
+#wishList {
+    height: 40px;
+} 
+#wishList:hover {
+    background-color: #201531;
+    border-radius: 10px;
+}
+#userLibrary {
+    height: 40px;
+}
+#userLibrary:hover {
+    background-color: #201531;
+    border-radius: 10px;
+} 
+#userLogOut {
+    height: 40px;
+} 
+#userLogOut:hover {
+    background-color: #201531;
+    border-radius: 10px;
+}
+/* Profile Side Bar Styling Ends */
+  
+.modal, .font-btn-modal {
+    font-family: 'Poppins',sans-serif;
+}
+.modal {
+    z-index: 1;
+}
+.modal-btn-style {
+    background: none;
+    color: rgb(211, 211, 211);
+    border: none;
+    font-size: 16pt;
+}
+.modal-btn-style:hover {
+    background: none;
+    color : black;
+}
+.modal-dialog {
+    z-index: 1;
+}
+#addPod {
+    height: 40px;
+} 
+
+/* Audio Player */
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    padding-bottom: 0%;
+    margin-top: 25px;
+    top: 1080px;
+    height: 110px;
+    width: 80%;
+    left: 400px;
+    right: 0%;
+    background-color: #0C031C;
+    /* #201531 */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.like-icons {
+    position: absolute;
+    top: 25px;
+    margin-left: 100px;
+}
+
+.control-icons {
+    margin-top: 10px;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.progress-container {
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    gap: 50px;
+}
+
+#myProgressBar1 {
+    width: 60vw;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.other-features {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.volume-bar {
+    display: flex;
+    align-items: right;
+    gap: .7em;
+}
+
+.volume-bar .progress-bar {
+    width: 6em;
+}
+
+.volume-bar .progress-bar:hover .progress::after {
+    --size: .8em;
+
+}
+
+/* Profile Side Bar Styling Ends */
